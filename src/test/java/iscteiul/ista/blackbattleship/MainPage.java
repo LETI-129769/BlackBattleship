@@ -11,13 +11,13 @@ import java.util.logging.Level;
 // page_url = https://www.jetbrains.com/
 public class MainPage {
 
-    @FindBy(xpath = "//*[@data-test-marker='Products']") //'Developer Tools']")
+    @FindBy(css = "button[data-test='main-menu-item-action'][aria-label='Products: Open submenu']")
     public WebElement seeDeveloperToolsButton;
 
     @FindBy(xpath = "//*[@data-test='suggestion-link']") //suggestion-action']")
     public WebElement findYourToolsButton;
 
-    @FindBy(xpath = "//div[@data-test='main-menu-item'and @data-test-marker = 'Products']") // and @data-test-marker = 'Developer Tools']")
+    @FindBy(css = "button[data-test='main-menu-item-action'][aria-label='Products: Open submenu']")
     public WebElement toolsMenu;
 
     @FindBy(css = "[data-test='site-header-search-action']")
