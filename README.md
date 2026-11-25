@@ -1,5 +1,11 @@
 # BlackBattleship
 
+## Vídeo de demonstração
+
+O vídeo de demonstração das test suites desenvolvidas na Parte 2 da ficha encontra-se disponível no seguinte endereço:
+
+[Vídeo de demonstração – YouTube](LINK_DO_VIDEO)
+
 ## Membros do grupo
 
 - Ana Sofia Mateus Marques — 129766
