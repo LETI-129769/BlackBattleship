@@ -1,9 +1,10 @@
 
-package iscteiul.ista.blackbattleship;
+package testsuiteleti129769userstories1to4.tests;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import testsuiteleti129769userstories1to4.pages.UserStory4Selenide;
 
 import static com.codeborne.selenide.Selenide.closeWebDriver;
 import static com.codeborne.selenide.Selenide.webdriver;

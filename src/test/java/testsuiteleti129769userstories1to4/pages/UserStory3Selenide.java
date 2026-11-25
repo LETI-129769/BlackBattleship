@@ -1,5 +1,5 @@
 
-package iscteiul.ista.blackbattleship;
+package testsuiteleti129769userstories1to4.pages;
 
 import com.codeborne.selenide.SelenideElement;
 import com.codeborne.selenide.Configuration;
