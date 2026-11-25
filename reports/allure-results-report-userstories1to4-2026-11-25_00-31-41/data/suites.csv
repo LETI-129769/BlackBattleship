@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7049","testChooseNicknameAndStartGame()","","2026-11-25","passed","2026-11-25","","testsuiteleti129769userstories1to4.tests.UserStory1TestSelenide","testsuiteleti129769userstories1to4.tests.UserStory1TestSelenide","testChooseNicknameAndStartGame"
+"","14188","testSendEmoji()","","2026-11-25","passed","2026-11-25","","testsuiteleti129769userstories1to4.tests.UserStory4TestSelenide","testsuiteleti129769userstories1to4.tests.UserStory4TestSelenide","testSendEmoji"
+"","3102","testSelectRobotMode()","","2026-11-25","passed","2026-11-25","","testsuiteleti129769userstories1to4.tests.UserStory2TestSelenide","testsuiteleti129769userstories1to4.tests.UserStory2TestSelenide","testSelectRobotMode"
+"","12050","testFireAtOpponent()","","2026-11-25","passed","2026-11-25","","testsuiteleti129769userstories1to4.tests.UserStory3TestSelenide","testsuiteleti129769userstories1to4.tests.UserStory3TestSelenide","testFireAtOpponent"
