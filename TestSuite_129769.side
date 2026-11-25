@@ -1,0 +1,403 @@
+{
+  "id": "4cce73de-0779-4f66-b456-a8258691b1ca",
+  "version": "2.0",
+  "name": "TestSuite_129769",
+  "url": "https://papergames.io",
+  "tests": [
+    {
+      "id": "46a772c4-c7c0-4de2-aae0-e5359dbff7b0",
+      "name": "UserStoryTest1",
+      "commands": [
+        {
+          "id": "0cfb28d8-fee2-4707-b843-cdc511da7f0b",
+          "comment": "\tAceder à página do jogo Battleship.",
+          "command": "open",
+          "target": "/pt-br/batalha-naval",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "c481ead5-31e9-4b6e-9d5c-bb3eb18aff2a",
+          "comment": "Definir o tamanho da janela do navegador.",
+          "command": "setWindowSize",
+          "target": "1288x697",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "2cce13f5-dd6d-436f-876c-5e117e1dd3f4",
+          "comment": "Selecionar o modo de jogo contra um robot.",
+          "command": "click",
+          "target": "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+          "targets": [
+            [
+              "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+              "css:finder"
+            ],
+            [
+              "xpath=//app-juicy-button[2]/button/span[2]/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "fb3ca24b-ff0a-4114-916b-a95748297dbf",
+          "comment": "Introduzir o nickname \"Player\".",
+          "command": "type",
+          "target": "css=.input-xl",
+          "targets": [
+            [
+              "css=.input-xl",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@type='text']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/section/div/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Player"
+        },
+        {
+          "id": "9cbb58a2-b99d-4714-a4db-436cdd4327a0",
+          "comment": "Confirmar o nickname e avançar para a partida.",
+          "command": "click",
+          "target": "css=.p-3 > .btn",
+          "targets": [
+            [
+              "css=.p-3 > .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/footer/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//footer/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Continuar')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "3cf7ce36-f5a2-4391-922a-40bf15e49463",
+      "name": "UserStoryTest2",
+      "commands": [
+        {
+          "id": "1372f43f-6cb2-46ab-b4e0-23e2b47172ae",
+          "comment": "Aceder à página do jogo Battleship.",
+          "command": "open",
+          "target": "/pt-br/batalha-naval",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "1a39f4cf-d18c-4c35-96da-fc213ab9045a",
+          "comment": "Selecionar o modo de jogo contra um robot.",
+          "command": "click",
+          "target": "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+          "targets": [
+            [
+              "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+              "css:finder"
+            ],
+            [
+              "xpath=//app-juicy-button[2]/button/span[2]/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "cca8909c-d129-46a9-8536-11015d01434e",
+      "name": "UserStoryTest3",
+      "commands": [
+        {
+          "id": "df876774-f716-4a4f-9b94-c591ec98e0d4",
+          "comment": "Aceder à página do jogo Battleship.",
+          "command": "open",
+          "target": "/pt-br/batalha-naval",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "867debd8-fec5-4dba-8847-b4ac222cf40b",
+          "comment": "Definir o tamanho da janela do navegador.",
+          "command": "setWindowSize",
+          "target": "815x703",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "beb79c54-121c-4e5d-917d-8d217fe6666f",
+          "comment": "Selecionar o modo de jogo contra um robot.",
+          "command": "click",
+          "target": "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+          "targets": [
+            [
+              "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+              "css:finder"
+            ],
+            [
+              "xpath=//app-juicy-button[2]/button/span[2]/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "f368c3c7-3c78-4d8d-a883-48b251d02df6",
+          "comment": "Introduzir o nickname \"Player\".",
+          "command": "type",
+          "target": "css=.input-xl",
+          "targets": [
+            [
+              "css=.input-xl",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@type='text']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/section/div/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Player"
+        },
+        {
+          "id": "f431f36c-c704-4b8a-86ad-1d363916d7c3",
+          "comment": "\tConfirmar o nickname e avançar para a partida.",
+          "command": "click",
+          "target": "css=.p-3 > .btn",
+          "targets": [
+            [
+              "css=.p-3 > .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/footer/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//footer/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Continuar')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "c83d253f-8b29-422a-b44e-f7fdbfdb6971",
+          "comment": "Aguardar 10 segundos para garantir que o jogo está carregado e pronto para receber o disparo.",
+          "command": "pause",
+          "target": "10000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "86e64b20-0d16-45e8-a678-76708be9b97e",
+          "comment": "Disparar contra uma posição do tabuleiro adversário.",
+          "command": "click",
+          "target": "css=[id^='board_ai'] > tr:nth-child(2) > td.cell-1-8",
+          "targets": [
+            [
+              "css=.hover",
+              "css:finder"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "63af6817-5ed1-4f35-9d0f-c8d983b22abe",
+      "name": "UserStoryTest4",
+      "commands": [
+        {
+          "id": "b2736a25-2352-4ded-8080-26b31dcdac6f",
+          "comment": "Aceder à página do jogo Battleship.",
+          "command": "open",
+          "target": "/pt-br/batalha-naval",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6f746f2f-f4c6-4416-8d0d-883a2d2afb7f",
+          "comment": "Definir o tamanho da janela do navegador.",
+          "command": "setWindowSize",
+          "target": "713x337",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3f1078ad-be95-4cfd-8a99-456f0ccf2721",
+          "comment": "Selecionar o modo de jogo contra um robot.",
+          "command": "click",
+          "target": "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+          "targets": [
+            [
+              "css=.w-100:nth-child(2) > .btn .flex-grow-1",
+              "css:finder"
+            ],
+            [
+              "xpath=//app-juicy-button[2]/button/span[2]/span",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "73ef0d9c-78cc-4c76-9dfd-0aac573a8e7a",
+          "comment": "Introduzir o nickname \"Player\".",
+          "command": "type",
+          "target": "css=.input-xl",
+          "targets": [
+            [
+              "css=.input-xl",
+              "css:finder"
+            ],
+            [
+              "xpath=//input[@type='text']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/section/div/div/div/input",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//input",
+              "xpath:position"
+            ]
+          ],
+          "value": "Player"
+        },
+        {
+          "id": "8e5db503-34f7-46e6-adf7-db73c0cd1342",
+          "comment": "Confirmar o nickname e avançar para a partida.",
+          "command": "click",
+          "target": "css=.p-3 > .btn",
+          "targets": [
+            [
+              "css=.p-3 > .btn",
+              "css:finder"
+            ],
+            [
+              "xpath=//button[@type='submit']",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=//mat-dialog-container[@id='mat-mdc-dialog-serverApp0']/div/div/app-guest-registration-dialog/form/app-dialog-layout/div/footer/button",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//footer/button",
+              "xpath:position"
+            ],
+            [
+              "xpath=//button[contains(.,'Continuar')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "command": "pause",
+          "target": "5000",
+          "value": "",
+          "id": "cec1e293-68b8-4dc3-9186-6911abd9e1e3",
+          "comment": "Aguardar 5 segundos para garantir que a partida está carregada."
+        },
+        {
+          "id": "395b1dc8-95ca-44bf-9f1b-a82570be848b",
+          "comment": "Abrir o menu de emojis durante a partida.",
+          "command": "click",
+          "target": "css=button:has(img.emoji-icon)",
+          "targets": [
+            [
+              "css=.cdk-focused > .mat-mdc-button-touch-target",
+              "css:finder"
+            ],
+            [
+              "xpath=//app-room-emojis/button/span[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        },
+        {
+          "id": "81d1ed07-d6e9-4432-aa99-807af5ff1201",
+          "comment": "Selecionar e enviar o emoji escolhido durante a partida.",
+          "command": "click",
+          "target": "css=button:has(img[src='assets/images/emoji/1f60e.png'])",
+          "targets": [
+            [
+              "css=.cdk-focused > .mat-mdc-button-touch-target",
+              "css:finder"
+            ],
+            [
+              "xpath=//div[@id='mat-menu-panel-serverApp1']/div/div/div/button[3]/span[3]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[3]/span[3]",
+              "xpath:position"
+            ]
+          ],
+          "value": ""
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "89d14c01-9b05-452c-ac48-9657e7f32840",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "63af6817-5ed1-4f35-9d0f-c8d983b22abe",
+        "cca8909c-d129-46a9-8536-11015d01434e",
+        "3cf7ce36-f5a2-4391-922a-40bf15e49463",
+        "46a772c4-c7c0-4de2-aae0-e5359dbff7b0"
+      ]
+    }
+  ],
+  "urls": [
+    "https://papergames.io/"
+  ],
+  "plugins": []
+}
